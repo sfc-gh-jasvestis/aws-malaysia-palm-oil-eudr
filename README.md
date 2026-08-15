@@ -9,7 +9,6 @@ Malaysia is the world's second-largest palm oil producer. EU Regulation 2023/111
 ```mermaid
 flowchart LR
     S3[S3 Data Landing] --> SP[Snowpipe]
-    SP --> RAW[RAW Tables]
     RAW --> DT[Dynamic Tables]
     DT --> ML[ML Functions]
     DT --> SEARCH[Cortex Search]
