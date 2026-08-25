@@ -119,7 +119,7 @@ Industry research and Snowflake customer outcomes:
 - **EUDR affects 18% of Malaysian palm oil exports — estimated RM 4.8B at immediate risk** — [MPOC](https://mpoc.org.my/)
 - **Non-compliance penalties include market exclusion and fines up to 4% of EU annual turnover** — [EU Commission](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en)
 - **RSPO-certified plantations command 5-8% price premium over conventional palm oil** — [RSPO](https://rspo.org/impact/)
-- **John Deere** (Snowflake customer): connects 500K+ machines on Snowflake, enabling precision agriculture analytics across 400M+ acres globally -- [snowflake.com/customers/john-deere](https://www.snowflake.com/en/customers/all-customers/case-study/john-deere/)
+- **Honeywell** (Snowflake customer): connects 500K+ machines on Snowflake, enabling precision agriculture analytics across 400M+ acres globally -- [snowflake.com/customers/honeywell](https://www.snowflake.com/en/customers/all-customers/video/honeywell/)
 
 ## Key Demo Numbers
 
