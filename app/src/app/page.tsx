@@ -54,6 +54,7 @@ export default function HomePage() {
         <div className="lg:col-span-1">
           <GeoMap
             country="malaysia"
+            labels={{ entity: 'Suppliers', event: 'Chain Events', alert: 'Non-Compliances' }}
             regions={data?.regions}
             markers={[{"label": "Kuala Lumpur", "value": "PETRONAS Tower HQ", "color": "blue", "size": "lg"}, {"label": "Johor Bahru", "value": "Refinery: 242K bpd", "color": "green", "size": "lg"}, {"label": "Kota Kinabalu", "value": "Deepwater ops", "color": "green", "size": "md"}, {"label": "Kuching", "value": "Sarawak gas", "color": "green", "size": "md"}]}
             routes={[]}
@@ -84,8 +85,13 @@ export default function HomePage() {
         columns={[
           { key: 'id', header: '#' },
           { key: 'name', header: 'Supplier' },
+          { key: 'region', header: 'Region' },
           { key: 'status', header: 'Status' },
-          { key: 'value', header: 'Compliance %' },
+          { key: 'm1', header: 'Compliance %' },
+          { key: 'm2', header: 'Mspo Certified' },
+          { key: 'm3', header: 'Due Diligence Pending' },
+          { key: 'events', header: 'Chain Events' },
+          { key: 'alerts', header: 'Non-Compliances' },
         ]}
         data={data?.entities || []}
         title="Supplier EUDR Status"
